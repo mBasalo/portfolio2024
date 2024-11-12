@@ -159,6 +159,7 @@ button:focus {
   width: 4.2em !important;
 }
 
+
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem !important;
@@ -308,6 +309,10 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+}
+
+.avatar {
+  
 }
 
 @media (max-width: 767px) {
