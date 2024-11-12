@@ -8,8 +8,7 @@ function Type() {
         strings: [
           "Software Developer",
           "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
+          "MERN Stack Developer"
         ],
         autoStart: true,
         loop: true,
