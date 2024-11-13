@@ -2,14 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import soundSeeker from "../../Assets/Projects/sound_seeker.png"
 import tomato from "../../Assets/Projects/tomato-web.png.png"
+import manage from "../../Assets/Projects/manage-webpage.png"
+import odonto from "../../Assets/Projects/dh-odonto.png"
+import tictactoe from "../../Assets/Projects/tic-tac-toe.png"
 
 function Projects() {
   return (
@@ -39,7 +36,7 @@ function Projects() {
               imgPath={tomato}
               isBlog={false}
               title="TOMATO - Food delivery"
-              description="Food delivery platform that allows users to explore different restaurant and menu options, place orders online, and manage food deliveries. It includes restaurant search, dish selection, shopping cart, payment processing, and order tracking.     "
+              description="Food delivery platform that allows users to explore different restaurant and menu options, place orders online, and manage food deliveries. It includes restaurant search, dish selection, shopping cart, payment processing, and order tracking."
               ghLink="https://github.com/mBasalo/tomato-food-delivery"
               demoLink="https://tomato-food-delivery-alpha.vercel.app/"
             />
@@ -47,38 +44,38 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={manage}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Manage - SPA"
+              description="Project from Digital House program, a project management tool for software teams. It showcases the use of HTML and CSS, standing out for its structured design and advanced functionality for organization and productivity."
+              ghLink="https://github.com/mBasalo/basic-responsive-website"
+              demoLink="https://manage-website-theta.vercel.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={odonto}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="DH - Odonto "
+              description=" final project from Digital House. It is a web application developed with Vite and React, showcasing advanced frontend development skills. The project stands out for its structured design and advanced functionality, reflecting a strong command of HTML and CSS."
+              ghLink="https://github.com/mBasalo/f3-final"
+              demoLink="https://mbasalo-frontlll-final.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={tictactoe}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Tic-Tac-Toe"
+              description="The Tic Tac Toe game is a project developed as practice to strengthen web development skills. Built with HTML, CSS, and JavaScript, it stands out for its interactive design and full functionality, allowing two players to compete in a classic game of Tic Tac Toe."
+              ghLink="https://github.com/mBasalo/ta-te-ti"
+              demoLink="https://ta-te-ti-kappa.vercel.app/" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -88,7 +85,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
