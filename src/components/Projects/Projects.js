@@ -28,9 +28,9 @@ function Projects() {
               imgPath={soundSeeker}
               isBlog={false}
               title="Sound Seeker"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="This Full Stack application meets the objective of renting musical instruments. It includes user registration, product management, advanced search, date-based reservations, favorites, and chat. Developed with React, Java Spring Boot, MySQL, and AWS."
+              ghLink="https://github.com/Nairb-code/SoundSeeker-UI"
+              demoLink="https://soundseeker.davidgarmo.me/"
             />
           </Col>
 
@@ -38,10 +38,10 @@ function Projects() {
             <ProjectCard
               imgPath={tomato}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="TOMATO - Food delivery"
+              description="Food delivery platform that allows users to explore different restaurant and menu options, place orders online, and manage food deliveries. It includes restaurant search, dish selection, shopping cart, payment processing, and order tracking.     "
+              ghLink="https://github.com/mBasalo/tomato-food-delivery"
+              demoLink="https://tomato-food-delivery-alpha.vercel.app/"
             />
           </Col>
 
