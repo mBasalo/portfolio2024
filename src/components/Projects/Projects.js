@@ -7,6 +7,7 @@ import tomato from "../../Assets/Projects/tomato-web.png.png"
 import manage from "../../Assets/Projects/manage-webpage.png"
 import odonto from "../../Assets/Projects/dh-odonto.png"
 import tictactoe from "../../Assets/Projects/tic-tac-toe.png"
+import portfolio from "../../Assets/Projects/portfolio1.png"
 
 function Projects() {
   return (
@@ -20,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Portfolio example"
+              description="This portfolio showcases web development projects. It highlights expertise in technologies like React, Java Spring Boot, MySQL, and AWS, offering a comprehensive view of the developer's skills and experience."
+              ghLink="https://github.com/mBasalo/portfolio-website"
+              demoLink="https://portfolio-six-sepia-20.vercel.app/"
+            />
+          </Col> 
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={soundSeeker}
@@ -75,17 +88,6 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
